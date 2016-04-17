@@ -105,7 +105,7 @@ typedef NS_ENUM(NSUInteger, PTConnectStatus)
 		[self _updateStatus];
 		
 		PTPreference* prefs = [PTPreference sharedInstance];
-		[_proxy startProxyWithRemoteHost:prefs.remoteServer RemotePort:prefs.remotePort UserName:prefs.userName Password:prefs.password LocalPort:7777];
+		[_proxy startProxyWithRemoteHost:prefs.remoteServer RemotePort:prefs.remotePort UserName:prefs.userName Password:prefs.password LocalPort:9999];
 		
 		_loadingHUD = [MBProgressHUD initHUBAddedTo:nil withTitle:NSLocalizedString(@"Connectting...", nil) withMode:MBProgressHUDModeIndeterminate];
 		[_loadingHUD show:YES];

@@ -69,6 +69,7 @@
 		7DEE9A921A0BA29600E52C04 /* SSHGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE9A911A0BA29600E52C04 /* SSHGlobal.m */; };
 		7DEE9A951A0BA6AA00E52C04 /* NSOperationQueue+GlobalQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DEE9A941A0BA6AA00E52C04 /* NSOperationQueue+GlobalQueue.m */; };
 		7DF725C71A6A68D300696A26 /* PrettyTunnel.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 7DD9D0BA1A68FE10001E92C6 /* PrettyTunnel.entitlements */; };
+		AC9660E61CC37C6200CA9FA8 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC9660E51CC37C6200CA9FA8 /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -197,6 +198,8 @@
 		7DEE9A911A0BA29600E52C04 /* SSHGlobal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHGlobal.m; sourceTree = "<group>"; };
 		7DEE9A931A0BA6AA00E52C04 /* NSOperationQueue+GlobalQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOperationQueue+GlobalQueue.h"; sourceTree = "<group>"; };
 		7DEE9A941A0BA6AA00E52C04 /* NSOperationQueue+GlobalQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOperationQueue+GlobalQueue.m"; sourceTree = "<group>"; };
+		AC9660E51CC37C6200CA9FA8 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		AC9660E91CC3850C00CA9FA8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -364,6 +367,7 @@
 		7D75E2EC1A0A068300E022F2 = {
 			isa = PBXGroup;
 			children = (
+				AC9660E51CC37C6200CA9FA8 /* Entitlements.plist */,
 				7D75E2F71A0A068300E022F2 /* PrettyTunnel */,
 				7DEE9A881A0B7A4E00E52C04 /* Frameworks */,
 				7D75E2F61A0A068300E022F2 /* Products */,
@@ -568,6 +572,7 @@
 				TargetAttributes = {
 					7D75E2F41A0A068300E022F2 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = JR7K84355N;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -603,6 +608,7 @@
 				7DF725C71A6A68D300696A26 /* PrettyTunnel.entitlements in Resources */,
 				7D2748881A6A1DA6009B7352 /* portrait.jpg in Resources */,
 				7DE0A5761A30555400B3E50F /* Localizable.strings in Resources */,
+				AC9660E61CC37C6200CA9FA8 /* Entitlements.plist in Resources */,
 				7D75E3041A0A068300E022F2 /* Main.storyboard in Resources */,
 				7D2610AD1A2EF3D300BC5FEF /* InfoPlist.strings in Resources */,
 				7D4B3F391A2616DC00C64E3C /* mute.mp3 in Resources */,
@@ -718,6 +724,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7D75E3031A0A068300E022F2 /* Base */,
+				AC9660E91CC3850C00CA9FA8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -821,14 +828,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PrettyTunnel/PrettyTunnel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PrettyTunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PrettyTunnel/framework/libssh2-for-iOS/lib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = PrettyTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -838,14 +849,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = PrettyTunnel/PrettyTunnel.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = PrettyTunnel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PrettyTunnel/framework/libssh2-for-iOS/lib",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = PrettyTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

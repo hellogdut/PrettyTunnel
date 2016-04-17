@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Remote Server"; ObjectID = "0uo-lN-b7v"; */
+"0uo-lN-b7v.text" = "Remote Server";
+
+/* Class = "UILabel"; text = "Source"; ObjectID = "0yf-8L-muE"; */
+"0yf-8L-muE.text" = "Source";
+
+/* Class = "UILabel"; text = "0.0(MB)"; ObjectID = "4RL-no-y2i"; */
+"4RL-no-y2i.text" = "0.0(MB)";
+
+/* Class = "UILabel"; text = "Request Count"; ObjectID = "8P8-F5-wfs"; */
+"8P8-F5-wfs.text" = "Request Count";
+
+/* Class = "UILabel"; text = "1.2.996"; ObjectID = "9Ly-6b-Ndz"; */
+"9Ly-6b-Ndz.text" = "1.2.996";
+
+/* Class = "UILabel"; text = "Total Receive"; ObjectID = "AsD-Zo-V1J"; */
+"AsD-Zo-V1J.text" = "Total Receive";
+
+/* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "DNe-jQ-sT2"; */
+"DNe-jQ-sT2.title" = "Save";
+
+/* Class = "UILabel"; text = "Total Send"; ObjectID = "Dhd-O9-544"; */
+"Dhd-O9-544.text" = "Total Send";
+
+/* Class = "UILabel"; text = "Author"; ObjectID = "E8D-gl-6PT"; */
+"E8D-gl-6PT.text" = "Author";
+
+/* Class = "UILabel"; text = "Local Port"; ObjectID = "ECm-Rq-Vvw"; */
+"ECm-Rq-Vvw.text" = "Local Port";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "LRR-9e-n7Z"; */
+"LRR-9e-n7Z.text" = "Password";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "Md4-ji-GKx"; */
+"Md4-ji-GKx.title" = "Settings";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "TMp-cx-fGf"; */
+"TMp-cx-fGf.text" = "0";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "XMp-6B-aZa"; */
+"XMp-6B-aZa.text" = "User Name";
+
+/* Class = "UITextField"; accessibilityHint = "999999"; ObjectID = "Xhs-Pz-lsr"; */
+"Xhs-Pz-lsr.accessibilityHint" = "999999";
+
+/* Class = "UITextField"; text = "9999"; ObjectID = "Xhs-Pz-lsr"; */
+"Xhs-Pz-lsr.text" = "9999";
+
+/* Class = "UITextField"; text = "22"; ObjectID = "Xmx-2Z-n1h"; */
+"Xmx-2Z-n1h.text" = "22";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "a0C-1G-oK0"; */
+"a0C-1G-oK0.text" = "Version";
+
+/* Class = "UIButton"; normalTitle = "@twotreesx"; ObjectID = "aWO-Pb-IuA"; */
+"aWO-Pb-IuA.normalTitle" = "@twotreesx";
+
+/* Class = "UILabel"; text = "TO BOLDLY GO WHERE NO ONE HAS GONE BEFORE."; ObjectID = "bxJ-VI-7k2"; */
+"bxJ-VI-7k2.text" = "TO BOLDLY GO WHERE NO ONE HAS GONE BEFORE.";
+
+/* Class = "UIButton"; normalTitle = "github.com/twotreeszf/prettytunnel"; ObjectID = "eTh-ay-7Zo"; */
+"eTh-ay-7Zo.normalTitle" = "github.com/twotreeszf/prettytunnel";
+
+/* Class = "UITabBarItem"; title = "About"; ObjectID = "fkW-HO-IbR"; */
+"fkW-HO-IbR.title" = "About";
+
+/* Class = "UINavigationItem"; title = "About"; ObjectID = "i8l-p5-2ar"; */
+"i8l-p5-2ar.title" = "About";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "ilc-CW-4Oy"; */
+"ilc-CW-4Oy.text" = "Description";
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "lZl-YN-47m"; */
+"lZl-YN-47m.text" = "00:00:00";
+
+/* Class = "UILabel"; text = "0.0(MB)"; ObjectID = "mVx-Zu-91k"; */
+"mVx-Zu-91k.text" = "0.0(MB)";
+
+/* Class = "UINavigationItem"; title = "Interstellar"; ObjectID = "oaB-gi-NUM"; */
+"oaB-gi-NUM.title" = "Interstellar";
+
+/* Class = "UINavigationItem"; title = "Connection Settings"; ObjectID = "pIG-pV-4Nj"; */
+"pIG-pV-4Nj.title" = "Connection Settings";
+
+/* Class = "UILabel"; text = "Remote Port"; ObjectID = "ryj-Og-F4j"; */
+"ryj-Og-F4j.text" = "Remote Port";
+
+/* Class = "UILabel"; text = "Not Configured"; ObjectID = "uVy-U6-8X1"; */
+"uVy-U6-8X1.text" = "Not Configured";
+
+/* Class = "UILabel"; text = "Not Connected"; ObjectID = "vV2-ri-gwd"; */
+"vV2-ri-gwd.text" = "Not Connected";
+
+/* Class = "UILabel"; text = "Connected Time"; ObjectID = "vX3-w0-ftg"; */
+"vX3-w0-ftg.text" = "Connected Time";

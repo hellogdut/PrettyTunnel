@@ -205,9 +205,9 @@ Exit0:
         free(allKeys);
 
         ret = SCPreferencesCommitChanges(pref);
-        ERROR_CHECK_BOOL(ret);
+        //ERROR_CHECK_BOOL(ret);
         ret = SCPreferencesApplyChanges(pref);
-        ERROR_CHECK_BOOL(ret);
+        //ERROR_CHECK_BOOL(ret);
         SCPreferencesSynchronize(pref);
 
         SCDynamicStoreRef store = SCDynamicStoreCreate(0, CFSTR("PrettyTunnel"), 0, 0);

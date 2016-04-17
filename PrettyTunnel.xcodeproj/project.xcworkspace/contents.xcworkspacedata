@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PrettyTunnel.xcodeproj">
+      location = "self:/Users/mario/Downloads/PrettyTunnel-master/PrettyTunnel.xcodeproj">
    </FileRef>
 </Workspace>
